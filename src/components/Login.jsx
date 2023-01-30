@@ -14,7 +14,6 @@ export default function Login(props) {
 
         let myHeaders = new Headers();
         myHeaders.append('Authorization', `Basic ${btoa(stringToEncode)}`);
-        console.log(myHeaders)
 
         let response = await fetch(`${props.BASE_URL}/auth/token`, {
             method: 'POST',

@@ -18,7 +18,7 @@ export default function Navbar(props) {
                         <>
                         {/* <Link className='nav-link' to='/buttons'>Buttons</Link> */}
                         {/* <Link className='nav-link' to='/standings'>Standings</Link> */}
-                        {/* <Link className='nav-link' to='/create'>Create Post</Link> */}
+                        <Link className='nav-link' to='/create'>Create Post</Link>
                         <Link className='nav-link' to='/' onClick={props.logUserOut}>Log Out</Link>
                         </>
                     ) : (
